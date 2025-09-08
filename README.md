@@ -1,4 +1,4 @@
-# Assistente Editorial — 
+# Assistente Editorial
 Esse o código feito para o Desafio Grupo Elo Editorial: Assistente Editorial Multiagente com CrewAI + Gemini. Apesar do título estar especificando o uso do Gemini, eu usei o modelo da openAi o gpt-3.5, 
 por conta da simplicidade na hora da criação da API key e por conta do CrewAI ter mais  afinidade com os
 modelos da OpenAI. Além disso eu não achei que seria necessário a criação de uma API completa para o projeto, mas de qualquer forma eu criei um arquivo mínimo de uma API que não é totalmente usada pelos agentes, porém de qualquer forma ela funciona corretamente. 
