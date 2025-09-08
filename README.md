@@ -81,3 +81,20 @@ pip install -r requirements.txt
 ```powershell
 jupyter notebook agentes.ipynb
 ```
+Após abrir o notebook basta rodar cada célula para o funcionamento total dos agentes. 
+
+### O agente entrega 2 tipos de respostas
+- Caso os inputs estejam incompletos ele envia somente as informações pesquisadas referente ao livro
+- Se inserir todas as informações no campo inputs, ele vai criar um ticket e retornar apenas o essencial sobre o livro pesquisado. 
+
+Tipo de resposta 1: 
+O livro A Abelha do autor Milton Célio de Oliveira Filho está disponível nas seguintes lojas: Amazon.com.br, Loja Elo Editorial.
+
+Tipo de resposta 2: (Caso queira testar a crição do ticket):
+  {                                                                                                              
+    "id": "TCK-20250906-0007",                                                          
+    "status": "open",                                            
+    "subject": "Dúvida sobre o livro",          
+    "title": "A Abelha",                                          
+    "author": "Milton Célio de Oliveira Filho"
+  }  
