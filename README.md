@@ -5,7 +5,7 @@ modelos da OpenAI. Além disso eu não achei que seria necessário a criação d
 
 ## Para conseguir testar o projeto (e a API se quiser) siga o fluxo a baixo
 
-API simples em Node/Express para:
+API simples em Node/Express para (opcional):
 - Ler o catálogo (`mock_catalog.json`)
 - Listar/criar tickets em `mock_ticket.json`
 
@@ -65,7 +65,7 @@ A API sobe em `http://127.0.0.1:8000`.
 
 Os dados são persistidos em `mock_ticket.json`.
 
-### Notebook/CREWAI (opcional)
+### Notebook/CREWAI 
 Se quiser usar o notebook:
 
 1) Crie/ative venv Python (opcional se já existe `.venv`):
